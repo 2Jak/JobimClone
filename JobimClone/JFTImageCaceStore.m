@@ -21,9 +21,10 @@
     });
     return sharedStore;
 }
+#pragma mark - Constructors
 -(instancetype)init
 {
-    @throw [NSException exceptionWithName:@"SingletonOnly" reason:@"This is a singleton object, please use the [JFTImageCacheStore sharedStore]" userInfo:nil];
+    @throw [NSException exceptionWithName: @"SingletonOnly" reason: @"This is a singleton object, please use the [JFTImageCacheStore sharedStore]" userInfo: nil];
     return nil;
 }
 -(instancetype)initPrivate
@@ -32,68 +33,48 @@
     {
         _dictionary = [NSMutableDictionary new];
         NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
-        [nc addObserver:self selector:@selector(clearChace:) name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
+        [nc addObserver: self selector: @selector(clearChace:) name: UIApplicationDidReceiveMemoryWarningNotification object: nil];
+        [self loadLocalImages];
     }
     return  self;
 }
--(void)setImage:(UIImage *)image forKey:(NSString *)key
+#pragma mark - Getters
+-(UIImage*)imageForKey: (NSString*)key
 {
-    self.dictionary[key] = image;
-    NSString *imgPath = [self imagePathForKey:key];
-    NSData 	*imgData = UIImagePNGRepresentation(image);
-    [imgData writeToFile:imgPath atomically:YES];
-}
--(UIImage *)imageForKey:(NSString *)key
-{
-    UIImage *result =self.dictionary[key];
+    UIImage* result = self.dictionary[key];
     if (!result)
-    {
-        NSString *imgPath = [self imagePathForKey:key];
-        result = [UIImage imageWithContentsOfFile:imgPath];
-        if(result)
-            self.dictionary[key] = result;
-        else
-            NSLog(@"Error 404! File not found!");
-    }
-    return self.dictionary[key];
+        return [UIImage imageNamed: @"noImageImage" inBundle: [NSBundle mainBundle] compatibleWithTraitCollection: nil];
+    return result;
 }
--(void)deleteImageForKey:(NSString *)key
+#pragma mark - Data Controls
+-(void)deleteImageForKey: (NSString*)key
 {
     if (!key)
         return;
-    [self.dictionary removeObjectForKey:key];
-    NSString *imgPath = [self imagePathForKey:key];
-    [[NSFileManager defaultManager] removeItemAtPath:imgPath error:nil];
+    [self.dictionary removeObjectForKey: key];
 }
--(NSString *)imagePathForKey: (NSString *)key
-{
-    NSArray *directories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *directory = [directories firstObject];
-    return [directory stringByAppendingString:key];
-}
-
--(void)clearChace:(NSNotification *)note
+-(void)clearChace: (NSNotification*)note
 {
     [self.dictionary removeAllObjects];
 }
 -(void)loadLocalImages
 {
-    NSMutableArray *imageKeys = [[[JFTJobTypeStore sharedStore] AllItems] copy];
-    [imageKeys addObjectsFromArray:@[]];
-    for (NSString *key in imageKeys)
-         [self loadImageForKey:key];
-}
--(void)loadImageForKey: (NSString *)key
-{
-    UIImage *result =self.dictionary[key];
-    if (!result)
+    NSMutableArray *result = [NSMutableArray array];
+    [result addObject: @"OpenTableViewIcon"];
+    [result addObject: @"OpenMenuIcon"];
+    [result addObject: @"LocationIcon"];
+    [[[NSBundle mainBundle] pathsForResourcesOfType:@"png" inDirectory:nil] enumerateObjectsUsingBlock: ^(NSString *obj, NSUInteger idx, BOOL *stop)
     {
-        NSString *imgPath = [self imagePathForKey:key];
-        result = [UIImage imageWithContentsOfFile:imgPath];
-        if(result)
-            self.dictionary[key] = result;
-        else
-            NSLog(@"Error 404! File not found!");
-    }
+        NSString *path = [[obj lastPathComponent] stringByDeletingPathExtension];;
+        if ([path containsString: @"JobTypeIcon"] == YES || [path containsString: @"JobMapPin"] == YES || [path containsString: @"Button"] == YES)
+        {
+            [result addObject: path];
+        }
+        for (NSString* imageFileName in result)
+        {
+            UIImage* newImage = [UIImage imageNamed: [NSString stringWithFormat: @"%@.png", imageFileName] inBundle: [NSBundle mainBundle] compatibleWithTraitCollection: nil];
+            [self.dictionary setObject: newImage forKey: imageFileName];
+        }
+    }];
 }
 @end

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+IB_DESIGNABLE
 @interface JFTSlentedView : UIView
-@property (nonatomic) BOOL SideSlint;
+@property (nonatomic) IBInspectable BOOL BottomRightSlope;
+@property (nonatomic) IBInspectable BOOL BottomLeftSlope;
+@property (nonatomic) IBInspectable UIColor* slentColor;
+@property (nonatomic) IBInspectable BOOL TopRightSlope;
+@property (nonatomic) IBInspectable BOOL TopLeftSlope;
+@property (nonatomic) IBInspectable BOOL Horizontal;
+@property (nonatomic) IBInspectable float Magnitude;
 @end

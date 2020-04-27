@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E365130809929DB5A2FBD16 /* Pods_JobimClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8F20AA25ADC9B3340E792A /* Pods_JobimClone.framework */; };
+		890329022423601E00AD9F53 /* JFTPersonalInfoVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 890329012423601E00AD9F53 /* JFTPersonalInfoVwCtrl.m */; };
+		89233AD6242362A500B52799 /* JFTNameTabVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AD5242362A500B52799 /* JFTNameTabVwCtrl.m */; };
+		89233ADA24236D9100B52799 /* JFTSideBarVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AD924236D9100B52799 /* JFTSideBarVwCtrl.m */; };
+		89233ADD24236EF800B52799 /* JFTSideBarSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233ADC24236EF800B52799 /* JFTSideBarSegue.m */; };
+		89233AE02423866D00B52799 /* JFTPersonalLocationVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233ADF2423866D00B52799 /* JFTPersonalLocationVwCtrl.m */; };
+		89233AE42423885A00B52799 /* JFTPersonalBirthYearVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AE32423885A00B52799 /* JFTPersonalBirthYearVwCtrl.m */; };
+		89233AE72423937500B52799 /* JFTPersonalEmailVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AE62423937500B52799 /* JFTPersonalEmailVwCtrl.m */; };
+		89233AEA2423A92300B52799 /* JFTJobInfoVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AE92423A92300B52799 /* JFTJobInfoVwCtrl.m */; };
+		89233AEE2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AED2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.m */; };
+		89233AF12423AF2300B52799 /* JFTJobTypeTblVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AF02423AF2300B52799 /* JFTJobTypeTblVwCtrl.m */; };
+		89233AF42423B2A800B52799 /* JFTJobTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AF32423B2A700B52799 /* JFTJobTypeCell.m */; };
+		89233AF72423B6FB00B52799 /* JFTJobDescriptionVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AF62423B6FB00B52799 /* JFTJobDescriptionVwCtrl.m */; };
+		89233AFA2423BAB400B52799 /* JFTJobLocationVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AF92423BAB400B52799 /* JFTJobLocationVwCtrl.m */; };
+		89233AFD2423BC9600B52799 /* JFTJobImageVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89233AFC2423BC9600B52799 /* JFTJobImageVwCtrl.m */; };
+		892B702024210ED5006FF94E /* JFTNavControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 892B701F24210ED5006FF94E /* JFTNavControllerSegue.m */; };
+		8935B2072430ADA5002CD96E /* JFTFilterPageVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8935B2062430ADA5002CD96E /* JFTFilterPageVwCtrl.m */; };
+		8935B20A2430BB42002CD96E /* JFTFilterJobTypeVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8935B2092430BB42002CD96E /* JFTFilterJobTypeVwCtrl.m */; };
+		8940D3B22410E00D00AF097E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8940D3B12410E00D00AF097E /* GoogleService-Info.plist */; };
+		8959402F24507ACE005C49FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D36A29240BCCF500AE61CD /* Assets.xcassets */; };
+		895DEC0A243334EF0009D8B1 /* JFTFilterLocationVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 895DEC09243334EF0009D8B1 /* JFTFilterLocationVwCtrl.m */; };
+		895DEC10243338070009D8B1 /* JFTSimpleTextLableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 895DEC0F243338070009D8B1 /* JFTSimpleTextLableCell.m */; };
+		895DEC13243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 895DEC12243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.m */; };
+		8971CDDA2439DE89004808B3 /* JFTRegistrationPageVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8971CDD92439DE89004808B3 /* JFTRegistrationPageVwCtrl.m */; };
+		89BBC4072428C86C00A0B5B9 /* JFTJobMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BBC4062428C86C00A0B5B9 /* JFTJobMKAnnotation.m */; };
+		89BBC40A2428CD2000A0B5B9 /* JFTMainMapVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BBC4092428CD2000A0B5B9 /* JFTMainMapVwCtrl.m */; };
 		89D36A1F240BCCF500AE61CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D36A1E240BCCF500AE61CD /* main.m */; };
 		89D36A22240BCCF500AE61CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D36A21240BCCF500AE61CD /* AppDelegate.m */; };
 		89D36A28240BCCF500AE61CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D36A26240BCCF500AE61CD /* Main.storyboard */; };
-		89D36A2A240BCCF500AE61CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D36A29240BCCF500AE61CD /* Assets.xcassets */; };
 		89D36A2D240BCCF500AE61CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D36A2B240BCCF500AE61CD /* LaunchScreen.storyboard */; };
 		89D36A37240BF5C100AE61CD /* JFTSlentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D36A36240BF5C100AE61CD /* JFTSlentedView.m */; };
+		89E4D0752427ACA40082D025 /* JFTAboutUsVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E4D0742427ACA40082D025 /* JFTAboutUsVwCtrl.m */; };
 		89F79BDD240E5BB000A48A61 /* JFTMainTableVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F79BDC240E5BB000A48A61 /* JFTMainTableVwCtrl.m */; };
 		89F79BE0240E5C5B00A48A61 /* JFTImageCaceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F79BDF240E5C5B00A48A61 /* JFTImageCaceStore.m */; };
 		89F79BE3240E5DD000A48A61 /* JFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F79BE2240E5DD000A48A61 /* JFTUser.m */; };
@@ -23,9 +49,63 @@
 		89F79BF6240E84CF00A48A61 /* JFTJobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F79BF5240E84CF00A48A61 /* JFTJobCell.m */; };
 		89F79BFC240E8B6300A48A61 /* JFTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F79BFB240E8B6300A48A61 /* JFTUtilities.m */; };
 		89F79C02240E9D1000A48A61 /* JFTLoginPageVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F79C01240E9D1000A48A61 /* JFTLoginPageVwCtrl.m */; };
+		89FB294F242B539F006FCF92 /* JFTCircularImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB294E242B539F006FCF92 /* JFTCircularImageView.m */; };
+		89FB2952242B915E006FCF92 /* JFTJobContactInfoVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB2951242B915E006FCF92 /* JFTJobContactInfoVwCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06AFF9CA8B0E5B81EACAA567 /* Pods-JobimClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobimClone.debug.xcconfig"; path = "Target Support Files/Pods-JobimClone/Pods-JobimClone.debug.xcconfig"; sourceTree = "<group>"; };
+		219D13014B8C834AFD7DC5C1 /* Pods-JobimClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobimClone.release.xcconfig"; path = "Target Support Files/Pods-JobimClone/Pods-JobimClone.release.xcconfig"; sourceTree = "<group>"; };
+		3B8F20AA25ADC9B3340E792A /* Pods_JobimClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobimClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		890329002423601E00AD9F53 /* JFTPersonalInfoVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTPersonalInfoVwCtrl.h; sourceTree = "<group>"; };
+		890329012423601E00AD9F53 /* JFTPersonalInfoVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTPersonalInfoVwCtrl.m; sourceTree = "<group>"; };
+		89233AD4242362A500B52799 /* JFTNameTabVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTNameTabVwCtrl.h; sourceTree = "<group>"; };
+		89233AD5242362A500B52799 /* JFTNameTabVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTNameTabVwCtrl.m; sourceTree = "<group>"; };
+		89233AD824236D9100B52799 /* JFTSideBarVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTSideBarVwCtrl.h; sourceTree = "<group>"; };
+		89233AD924236D9100B52799 /* JFTSideBarVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTSideBarVwCtrl.m; sourceTree = "<group>"; };
+		89233ADB24236EF800B52799 /* JFTSideBarSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTSideBarSegue.h; sourceTree = "<group>"; };
+		89233ADC24236EF800B52799 /* JFTSideBarSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTSideBarSegue.m; sourceTree = "<group>"; };
+		89233ADE2423866D00B52799 /* JFTPersonalLocationVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTPersonalLocationVwCtrl.h; sourceTree = "<group>"; };
+		89233ADF2423866D00B52799 /* JFTPersonalLocationVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTPersonalLocationVwCtrl.m; sourceTree = "<group>"; };
+		89233AE22423885A00B52799 /* JFTPersonalBirthYearVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTPersonalBirthYearVwCtrl.h; sourceTree = "<group>"; };
+		89233AE32423885A00B52799 /* JFTPersonalBirthYearVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTPersonalBirthYearVwCtrl.m; sourceTree = "<group>"; };
+		89233AE52423937500B52799 /* JFTPersonalEmailVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTPersonalEmailVwCtrl.h; sourceTree = "<group>"; };
+		89233AE62423937500B52799 /* JFTPersonalEmailVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTPersonalEmailVwCtrl.m; sourceTree = "<group>"; };
+		89233AE82423A92300B52799 /* JFTJobInfoVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobInfoVwCtrl.h; sourceTree = "<group>"; };
+		89233AE92423A92300B52799 /* JFTJobInfoVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobInfoVwCtrl.m; sourceTree = "<group>"; };
+		89233AEC2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobCompanyInfoVwCtrl.h; sourceTree = "<group>"; };
+		89233AED2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobCompanyInfoVwCtrl.m; sourceTree = "<group>"; };
+		89233AEF2423AF2300B52799 /* JFTJobTypeTblVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobTypeTblVwCtrl.h; sourceTree = "<group>"; };
+		89233AF02423AF2300B52799 /* JFTJobTypeTblVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobTypeTblVwCtrl.m; sourceTree = "<group>"; };
+		89233AF22423B2A700B52799 /* JFTJobTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobTypeCell.h; sourceTree = "<group>"; };
+		89233AF32423B2A700B52799 /* JFTJobTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobTypeCell.m; sourceTree = "<group>"; };
+		89233AF52423B6FB00B52799 /* JFTJobDescriptionVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobDescriptionVwCtrl.h; sourceTree = "<group>"; };
+		89233AF62423B6FB00B52799 /* JFTJobDescriptionVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobDescriptionVwCtrl.m; sourceTree = "<group>"; };
+		89233AF82423BAB400B52799 /* JFTJobLocationVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobLocationVwCtrl.h; sourceTree = "<group>"; };
+		89233AF92423BAB400B52799 /* JFTJobLocationVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobLocationVwCtrl.m; sourceTree = "<group>"; };
+		89233AFB2423BC9600B52799 /* JFTJobImageVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobImageVwCtrl.h; sourceTree = "<group>"; };
+		89233AFC2423BC9600B52799 /* JFTJobImageVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobImageVwCtrl.m; sourceTree = "<group>"; };
+		892B701E24210ED5006FF94E /* JFTNavControllerSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTNavControllerSegue.h; sourceTree = "<group>"; };
+		892B701F24210ED5006FF94E /* JFTNavControllerSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTNavControllerSegue.m; sourceTree = "<group>"; };
+		8935B2052430ADA5002CD96E /* JFTFilterPageVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTFilterPageVwCtrl.h; sourceTree = "<group>"; };
+		8935B2062430ADA5002CD96E /* JFTFilterPageVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTFilterPageVwCtrl.m; sourceTree = "<group>"; };
+		8935B2082430BB42002CD96E /* JFTFilterJobTypeVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTFilterJobTypeVwCtrl.h; sourceTree = "<group>"; };
+		8935B2092430BB42002CD96E /* JFTFilterJobTypeVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTFilterJobTypeVwCtrl.m; sourceTree = "<group>"; };
+		8935B20C2430C3E0002CD96E /* JFTFilterQuerriable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTFilterQuerriable.h; sourceTree = "<group>"; };
+		8940D3B12410E00D00AF097E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		895DEC08243334EF0009D8B1 /* JFTFilterLocationVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTFilterLocationVwCtrl.h; sourceTree = "<group>"; };
+		895DEC09243334EF0009D8B1 /* JFTFilterLocationVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTFilterLocationVwCtrl.m; sourceTree = "<group>"; };
+		895DEC0E243338070009D8B1 /* JFTSimpleTextLableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTSimpleTextLableCell.h; sourceTree = "<group>"; };
+		895DEC0F243338070009D8B1 /* JFTSimpleTextLableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTSimpleTextLableCell.m; sourceTree = "<group>"; };
+		895DEC11243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTFilterCompanyVwCtrl.h; sourceTree = "<group>"; };
+		895DEC12243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTFilterCompanyVwCtrl.m; sourceTree = "<group>"; };
+		8971CDD82439DE89004808B3 /* JFTRegistrationPageVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTRegistrationPageVwCtrl.h; sourceTree = "<group>"; };
+		8971CDD92439DE89004808B3 /* JFTRegistrationPageVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTRegistrationPageVwCtrl.m; sourceTree = "<group>"; };
+		89A46D87243B23E4004AE780 /* JFTCompletionLocker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTCompletionLocker.h; sourceTree = "<group>"; };
+		89BBC4052428C86C00A0B5B9 /* JFTJobMKAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobMKAnnotation.h; sourceTree = "<group>"; };
+		89BBC4062428C86C00A0B5B9 /* JFTJobMKAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobMKAnnotation.m; sourceTree = "<group>"; };
+		89BBC4082428CD2000A0B5B9 /* JFTMainMapVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTMainMapVwCtrl.h; sourceTree = "<group>"; };
+		89BBC4092428CD2000A0B5B9 /* JFTMainMapVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTMainMapVwCtrl.m; sourceTree = "<group>"; };
 		89D36A1A240BCCF500AE61CD /* JobimClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobimClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D36A1E240BCCF500AE61CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89D36A20240BCCF500AE61CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +116,9 @@
 		89D36A2E240BCCF500AE61CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D36A35240BF5C100AE61CD /* JFTSlentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTSlentedView.h; sourceTree = "<group>"; };
 		89D36A36240BF5C100AE61CD /* JFTSlentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTSlentedView.m; sourceTree = "<group>"; };
+		89D846172410F0EB00172E8B /* JobimClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobimClone.entitlements; sourceTree = "<group>"; };
+		89E4D0732427ACA40082D025 /* JFTAboutUsVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTAboutUsVwCtrl.h; sourceTree = "<group>"; };
+		89E4D0742427ACA40082D025 /* JFTAboutUsVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTAboutUsVwCtrl.m; sourceTree = "<group>"; };
 		89F79BDB240E5BB000A48A61 /* JFTMainTableVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTMainTableVwCtrl.h; sourceTree = "<group>"; };
 		89F79BDC240E5BB000A48A61 /* JFTMainTableVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTMainTableVwCtrl.m; sourceTree = "<group>"; };
 		89F79BDE240E5C5B00A48A61 /* JFTImageCacheStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTImageCacheStore.h; sourceTree = "<group>"; };
@@ -56,6 +139,10 @@
 		89F79BFB240E8B6300A48A61 /* JFTUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTUtilities.m; sourceTree = "<group>"; };
 		89F79C00240E9D1000A48A61 /* JFTLoginPageVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTLoginPageVwCtrl.h; sourceTree = "<group>"; };
 		89F79C01240E9D1000A48A61 /* JFTLoginPageVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTLoginPageVwCtrl.m; sourceTree = "<group>"; };
+		89FB294D242B539F006FCF92 /* JFTCircularImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTCircularImageView.h; sourceTree = "<group>"; };
+		89FB294E242B539F006FCF92 /* JFTCircularImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTCircularImageView.m; sourceTree = "<group>"; };
+		89FB2950242B915E006FCF92 /* JFTJobContactInfoVwCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTJobContactInfoVwCtrl.h; sourceTree = "<group>"; };
+		89FB2951242B915E006FCF92 /* JFTJobContactInfoVwCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTJobContactInfoVwCtrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +150,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E365130809929DB5A2FBD16 /* Pods_JobimClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF313B98142D6BC6C8368F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06AFF9CA8B0E5B81EACAA567 /* Pods-JobimClone.debug.xcconfig */,
+				219D13014B8C834AFD7DC5C1 /* Pods-JobimClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89233AD32423620C00B52799 /* Personal Info Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				89233AD4242362A500B52799 /* JFTNameTabVwCtrl.h */,
+				89233AD5242362A500B52799 /* JFTNameTabVwCtrl.m */,
+				89233AE52423937500B52799 /* JFTPersonalEmailVwCtrl.h */,
+				89233AE62423937500B52799 /* JFTPersonalEmailVwCtrl.m */,
+				89233ADE2423866D00B52799 /* JFTPersonalLocationVwCtrl.h */,
+				89233ADF2423866D00B52799 /* JFTPersonalLocationVwCtrl.m */,
+				89233AE22423885A00B52799 /* JFTPersonalBirthYearVwCtrl.h */,
+				89233AE32423885A00B52799 /* JFTPersonalBirthYearVwCtrl.m */,
+			);
+			name = "Personal Info Tabs";
+			sourceTree = "<group>";
+		};
+		89233AEB2423AAA600B52799 /* PostJob Info Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				89233AFB2423BC9600B52799 /* JFTJobImageVwCtrl.h */,
+				89233AFC2423BC9600B52799 /* JFTJobImageVwCtrl.m */,
+				89233AEF2423AF2300B52799 /* JFTJobTypeTblVwCtrl.h */,
+				89233AF02423AF2300B52799 /* JFTJobTypeTblVwCtrl.m */,
+				89233AF82423BAB400B52799 /* JFTJobLocationVwCtrl.h */,
+				89233AF92423BAB400B52799 /* JFTJobLocationVwCtrl.m */,
+				89233AF52423B6FB00B52799 /* JFTJobDescriptionVwCtrl.h */,
+				89233AF62423B6FB00B52799 /* JFTJobDescriptionVwCtrl.m */,
+				89FB2950242B915E006FCF92 /* JFTJobContactInfoVwCtrl.h */,
+				89FB2951242B915E006FCF92 /* JFTJobContactInfoVwCtrl.m */,
+				89233AEC2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.h */,
+				89233AED2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.m */,
+			);
+			name = "PostJob Info Tabs";
+			sourceTree = "<group>";
+		};
+		8935B2042430AD23002CD96E /* FilterPage Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8935B2082430BB42002CD96E /* JFTFilterJobTypeVwCtrl.h */,
+				8935B2092430BB42002CD96E /* JFTFilterJobTypeVwCtrl.m */,
+				895DEC08243334EF0009D8B1 /* JFTFilterLocationVwCtrl.h */,
+				895DEC09243334EF0009D8B1 /* JFTFilterLocationVwCtrl.m */,
+				895DEC11243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.h */,
+				895DEC12243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.m */,
+			);
+			name = "FilterPage Tabs";
+			sourceTree = "<group>";
+		};
+		8935B20B2430C351002CD96E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8935B20C2430C3E0002CD96E /* JFTFilterQuerriable.h */,
+				89A46D87243B23E4004AE780 /* JFTCompletionLocker.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		89D36A11240BCCF500AE61CD = {
 			isa = PBXGroup;
 			children = (
 				89D36A1C240BCCF500AE61CD /* JobimClone */,
 				89D36A1B240BCCF500AE61CD /* Products */,
+				0DF313B98142D6BC6C8368F1 /* Pods */,
+				AD6E7602CF2318C583770B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +243,7 @@
 		89D36A1C240BCCF500AE61CD /* JobimClone */ = {
 			isa = PBXGroup;
 			children = (
+				89D846172410F0EB00172E8B /* JobimClone.entitlements */,
 				89F79BF0240E83FE00A48A61 /* SecondaryControllers */,
 				89F79BDA240E5B6E00A48A61 /* MainControllers */,
 				89D36A20240BCCF500AE61CD /* AppDelegate.h */,
@@ -96,6 +252,7 @@
 				89D36A29240BCCF500AE61CD /* Assets.xcassets */,
 				89D36A2B240BCCF500AE61CD /* LaunchScreen.storyboard */,
 				89D36A2E240BCCF500AE61CD /* Info.plist */,
+				8940D3B12410E00D00AF097E /* GoogleService-Info.plist */,
 				89D36A1D240BCCF500AE61CD /* Supporting Files */,
 			);
 			path = JobimClone;
@@ -109,6 +266,7 @@
 				89F79BFB240E8B6300A48A61 /* JFTUtilities.m */,
 				89F79BEB240E780A00A48A61 /* Stores */,
 				89F79BEA240E77F900A48A61 /* Objects */,
+				8935B20B2430C351002CD96E /* Protocols */,
 				89F79BEC240E781B00A48A61 /* GlobalUIResources */,
 			);
 			name = "Supporting Files";
@@ -117,10 +275,20 @@
 		89F79BDA240E5B6E00A48A61 /* MainControllers */ = {
 			isa = PBXGroup;
 			children = (
+				89233AE82423A92300B52799 /* JFTJobInfoVwCtrl.h */,
+				89233AE92423A92300B52799 /* JFTJobInfoVwCtrl.m */,
+				89233AD824236D9100B52799 /* JFTSideBarVwCtrl.h */,
+				89233AD924236D9100B52799 /* JFTSideBarVwCtrl.m */,
+				89BBC4082428CD2000A0B5B9 /* JFTMainMapVwCtrl.h */,
+				89BBC4092428CD2000A0B5B9 /* JFTMainMapVwCtrl.m */,
+				8935B2052430ADA5002CD96E /* JFTFilterPageVwCtrl.h */,
+				8935B2062430ADA5002CD96E /* JFTFilterPageVwCtrl.m */,
 				89F79BDB240E5BB000A48A61 /* JFTMainTableVwCtrl.h */,
 				89F79BDC240E5BB000A48A61 /* JFTMainTableVwCtrl.m */,
 				89F79C00240E9D1000A48A61 /* JFTLoginPageVwCtrl.h */,
 				89F79C01240E9D1000A48A61 /* JFTLoginPageVwCtrl.m */,
+				890329002423601E00AD9F53 /* JFTPersonalInfoVwCtrl.h */,
+				890329012423601E00AD9F53 /* JFTPersonalInfoVwCtrl.m */,
 			);
 			name = MainControllers;
 			sourceTree = "<group>";
@@ -154,8 +322,20 @@
 			children = (
 				89F79BF4240E84CF00A48A61 /* JFTJobCell.h */,
 				89F79BF5240E84CF00A48A61 /* JFTJobCell.m */,
+				89233AF22423B2A700B52799 /* JFTJobTypeCell.h */,
+				89233AF32423B2A700B52799 /* JFTJobTypeCell.m */,
 				89D36A35240BF5C100AE61CD /* JFTSlentedView.h */,
 				89D36A36240BF5C100AE61CD /* JFTSlentedView.m */,
+				89233ADB24236EF800B52799 /* JFTSideBarSegue.h */,
+				89233ADC24236EF800B52799 /* JFTSideBarSegue.m */,
+				89BBC4052428C86C00A0B5B9 /* JFTJobMKAnnotation.h */,
+				89BBC4062428C86C00A0B5B9 /* JFTJobMKAnnotation.m */,
+				89FB294D242B539F006FCF92 /* JFTCircularImageView.h */,
+				89FB294E242B539F006FCF92 /* JFTCircularImageView.m */,
+				895DEC0E243338070009D8B1 /* JFTSimpleTextLableCell.h */,
+				895DEC0F243338070009D8B1 /* JFTSimpleTextLableCell.m */,
+				892B701E24210ED5006FF94E /* JFTNavControllerSegue.h */,
+				892B701F24210ED5006FF94E /* JFTNavControllerSegue.m */,
 			);
 			name = GlobalUIResources;
 			sourceTree = "<group>";
@@ -163,10 +343,25 @@
 		89F79BF0240E83FE00A48A61 /* SecondaryControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8935B2042430AD23002CD96E /* FilterPage Tabs */,
+				89233AEB2423AAA600B52799 /* PostJob Info Tabs */,
+				89233AD32423620C00B52799 /* Personal Info Tabs */,
+				89E4D0732427ACA40082D025 /* JFTAboutUsVwCtrl.h */,
+				89E4D0742427ACA40082D025 /* JFTAboutUsVwCtrl.m */,
 				89F79BF1240E842E00A48A61 /* JFTDetailedJobVwCtrl.h */,
 				89F79BF2240E842E00A48A61 /* JFTDetailedJobVwCtrl.m */,
+				8971CDD82439DE89004808B3 /* JFTRegistrationPageVwCtrl.h */,
+				8971CDD92439DE89004808B3 /* JFTRegistrationPageVwCtrl.m */,
 			);
 			name = SecondaryControllers;
+			sourceTree = "<group>";
+		};
+		AD6E7602CF2318C583770B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F20AA25ADC9B3340E792A /* Pods_JobimClone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89D36A31240BCCF500AE61CD /* Build configuration list for PBXNativeTarget "JobimClone" */;
 			buildPhases = (
+				101EF63985DCBCB69C930D8C /* [CP] Check Pods Manifest.lock */,
 				89D36A16240BCCF500AE61CD /* Sources */,
 				89D36A17240BCCF500AE61CD /* Frameworks */,
 				89D36A18240BCCF500AE61CD /* Resources */,
+				2BA6EBEA036E1BFAFABE2481 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,11 +392,12 @@
 		89D36A12240BCCF500AE61CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "hyperactive hi-tech ltd";
 				TargetAttributes = {
 					89D36A19240BCCF500AE61CD = {
 						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -208,6 +406,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -227,12 +426,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D36A2D240BCCF500AE61CD /* LaunchScreen.storyboard in Resources */,
-				89D36A2A240BCCF500AE61CD /* Assets.xcassets in Resources */,
+				8940D3B22410E00D00AF097E /* GoogleService-Info.plist in Resources */,
+				8959402F24507ACE005C49FF /* Assets.xcassets in Resources */,
 				89D36A28240BCCF500AE61CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101EF63985DCBCB69C930D8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobimClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BA6EBEA036E1BFAFABE2481 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobimClone/Pods-JobimClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobimClone/Pods-JobimClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89D36A16240BCCF500AE61CD /* Sources */ = {
@@ -240,18 +489,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D36A37240BF5C100AE61CD /* JFTSlentedView.m in Sources */,
+				89233ADD24236EF800B52799 /* JFTSideBarSegue.m in Sources */,
+				89233AFD2423BC9600B52799 /* JFTJobImageVwCtrl.m in Sources */,
+				895DEC10243338070009D8B1 /* JFTSimpleTextLableCell.m in Sources */,
+				8971CDDA2439DE89004808B3 /* JFTRegistrationPageVwCtrl.m in Sources */,
 				89D36A22240BCCF500AE61CD /* AppDelegate.m in Sources */,
+				89233AE42423885A00B52799 /* JFTPersonalBirthYearVwCtrl.m in Sources */,
+				89233AF42423B2A800B52799 /* JFTJobTypeCell.m in Sources */,
 				89F79BF3240E842E00A48A61 /* JFTDetailedJobVwCtrl.m in Sources */,
+				89233AE72423937500B52799 /* JFTPersonalEmailVwCtrl.m in Sources */,
+				89FB294F242B539F006FCF92 /* JFTCircularImageView.m in Sources */,
+				890329022423601E00AD9F53 /* JFTPersonalInfoVwCtrl.m in Sources */,
 				89F79BF6240E84CF00A48A61 /* JFTJobCell.m in Sources */,
+				8935B20A2430BB42002CD96E /* JFTFilterJobTypeVwCtrl.m in Sources */,
 				89F79C02240E9D1000A48A61 /* JFTLoginPageVwCtrl.m in Sources */,
+				89233AFA2423BAB400B52799 /* JFTJobLocationVwCtrl.m in Sources */,
 				89F79BE9240E749100A48A61 /* JFTJobTypeStore.m in Sources */,
+				892B702024210ED5006FF94E /* JFTNavControllerSegue.m in Sources */,
+				89BBC4072428C86C00A0B5B9 /* JFTJobMKAnnotation.m in Sources */,
 				89F79BDD240E5BB000A48A61 /* JFTMainTableVwCtrl.m in Sources */,
+				8935B2072430ADA5002CD96E /* JFTFilterPageVwCtrl.m in Sources */,
+				895DEC13243360CE0009D8B1 /* JFTFilterCompanyVwCtrl.m in Sources */,
+				89233AF72423B6FB00B52799 /* JFTJobDescriptionVwCtrl.m in Sources */,
+				89FB2952242B915E006FCF92 /* JFTJobContactInfoVwCtrl.m in Sources */,
+				895DEC0A243334EF0009D8B1 /* JFTFilterLocationVwCtrl.m in Sources */,
+				89233AEA2423A92300B52799 /* JFTJobInfoVwCtrl.m in Sources */,
+				89233AEE2423AB2000B52799 /* JFTJobCompanyInfoVwCtrl.m in Sources */,
 				89F79BFC240E8B6300A48A61 /* JFTUtilities.m in Sources */,
 				89F79BE6240E5DE400A48A61 /* JFTJob.m in Sources */,
+				89233AD6242362A500B52799 /* JFTNameTabVwCtrl.m in Sources */,
+				89BBC40A2428CD2000A0B5B9 /* JFTMainMapVwCtrl.m in Sources */,
+				89E4D0752427ACA40082D025 /* JFTAboutUsVwCtrl.m in Sources */,
 				89D36A1F240BCCF500AE61CD /* main.m in Sources */,
 				89F79BE0240E5C5B00A48A61 /* JFTImageCaceStore.m in Sources */,
 				89F79BEF240E784800A48A61 /* JFTLocalJobsStore.m in Sources */,
+				89233ADA24236D9100B52799 /* JFTSideBarVwCtrl.m in Sources */,
+				89233AF12423AF2300B52799 /* JFTJobTypeTblVwCtrl.m in Sources */,
 				89F79BE3240E5DD000A48A61 /* JFTUser.m in Sources */,
+				89233AE02423866D00B52799 /* JFTPersonalLocationVwCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +561,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -314,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,13 +615,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -352,7 +647,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -361,23 +656,33 @@
 		};
 		89D36A32240BCCF500AE61CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06AFF9CA8B0E5B81EACAA567 /* Pods-JobimClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JobimClone/JobimClone.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JobimClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JFT.JobimClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		89D36A33240BCCF500AE61CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219D13014B8C834AFD7DC5C1 /* Pods-JobimClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JobimClone/JobimClone.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JobimClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JFT.JobimClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

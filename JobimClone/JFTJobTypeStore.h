@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface JFTJobTypeStore : NSObject
 @property (nonatomic, readonly) NSArray *AllItems;
 +(instancetype)sharedStore;
+-(UIColor*)getColorForJobType: (NSString*)type;
 @end

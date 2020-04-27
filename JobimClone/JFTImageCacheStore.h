@@ -11,8 +11,6 @@
 
 @interface JFTImageCacheStore : NSObject
 +(instancetype)sharedStore;
--(void)setImage: (UIImage *) image forKey: (NSString *)key;
--(UIImage *)imageForKey: (NSString *)key;
--(void)deleteImageForKey: (NSString *)key;
--(void)loadLocalImages;
+-(UIImage*)imageForKey: (NSString*)key;
+-(void)deleteImageForKey: (NSString*)key;
 @end

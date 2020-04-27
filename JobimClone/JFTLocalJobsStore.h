@@ -7,12 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef enum
+{
+    JFTFilterJobsByCompanyName,
+    JFTFilterJobsByLocation,
+    JFTFilterJobsByJobType,
+    JFTFilterJobsByNone
+}JFTFilterParameter;
 @class JFTJob;
 @interface JFTLocalJobsStore : NSObject
-@property (nonatomic, readonly) NSArray *AllItems;
+@property (nonatomic, readonly) NSArray* AllJobs;
+@property (nonatomic, readonly) NSArray* DisplayedJobs;
+@property(nonatomic, readonly) NSArray* FavouriteJobs;
 +(instancetype)sharedStore;
--(void)addItem;
--(void)removeItem:(JFTJob *)item;
+-(void)addLocalJob;
+-(void)removeJobByID: (NSString*)jobID;
 -(BOOL)saveData;
 -(void)loaData;
+-(void)addToFavourites: (NSString*)jobID;
+-(void)removeFromFavourites: (NSString*)jobID;
+-(void)blacklistAJob: (NSString*)jobID;
+-(JFTJob*)getJobByID: (NSString*)ID;
+-(void)filterDisplayedJobs: (JFTFilterParameter)parameter forValue: (NSArray*)values;
+-(BOOL)isUserCreatedJob: (NSString*)jobID;
 @end
